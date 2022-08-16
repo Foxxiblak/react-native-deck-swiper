@@ -534,7 +534,7 @@ class Swiper extends Component {
   }
 
   jumpToCardIndex = newCardIndex => {
-    if (this.state.cards[newCardIndex]) {
+    if (this.props.cards[newCardIndex]) {
       this.setCardIndex(newCardIndex, false)
     }
   }
